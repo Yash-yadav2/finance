@@ -1,0 +1,169 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body{
+    width: 100%;
+    height: 100%;
+  }
+  .navbar{
+    background-color: #151414;
+    padding-left: 1.9vw;
+    padding-right: 2.5vw;
+    padding-top: 1.28vw;
+    padding-bottom: 1vw;
+    height: fit-content;
+    font-family: Lato;
+    font-weight: 400;
+  }
+  
+  .nav-but button{
+    padding: 0.5vw 2.3vw;
+    font-family: Lato;
+    font-weight: 400;
+    
+  }
+  .coursel button{
+    padding: 0.2vw 0.8vw;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.1vw;
+    
+  }
+  
+  /* Ensure the pagination bullets are visible */
+  .swiper-pagination {
+    position: absolute;
+    bottom: 20px !important; /* Adjust position if needed */
+    z-index: 10; /* Ensure it's above other elements */
+  }
+  
+  /* Default bullet styles */
+  .swiper-pagination-bullet {
+    background-color: transparent !important; /* Yellow color */
+    border: 2px solid white !important; /* White border */
+    width: 14px !important; /* Slightly bigger */
+    height: 14px !important;
+    opacity: 1 !important; /* Ensure full visibility */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Active bullet */
+  .swiper-pagination-bullet-active {
+    background-color: #fbb203 !important; /* White when active */
+    border: 2px solid #fbb203 !important; /* Yellow border when active */
+  }
+  
+  .coursel{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 5px;
+  }
+
+@media  (max-width: 768px) {  
+  .coursel{
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+  }
+
+  .treasure{
+    display: none;
+  }
+
+  .cardhide{
+    display: none;
+  }
+
+  .navbar{
+    background-color: #151414;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+    height: fit-content;
+    font-family: Lato;
+    font-weight: 400;
+  }
+  
+  .nav-but button{
+    padding: 0.5vw 2.3vw;
+    font-family: Lato;
+    font-weight: 400;
+    
+  }
+  .faltu{
+    display: none;
+  }
+}
+
+.navfot svg{
+  scale: 0.6;
+}
+
+@media  (max-width: 1150px) {  
+  .faltu{
+    display: none;
+  }
+  .coursel{
+   height: 26vh;
+  }
+  .form{
+    width: 30vw;
+  }
+  .cardhide{
+    display: none;
+  }
+  .sidecards{
+    display: none;
+  }
+ 
+}
+@media  (max-width: 950px) {  
+  .join{
+    height: 15vh;
+  }
+  .coursel{
+    height: 20vh;
+   }
+   .form{
+    width: 90vw;
+  }
+
+}
+@media  (max-width: 1600px) {  
+  .coursel{
+    height: 25vw;
+   }
+
+}
+
+
+
+.cardsvg svg:hover path{
+  fill: #fbb203;
+}
+
+.footersvg{
+  height: fit-content;
+  width: full;
+  fill: aliceblue;
+}
+.footersvg svg{
+  scale: 0.2;
+}
+
+.custom-prev, .custom-next {
+  z-index: 20 !important;
+}
+
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #1f2937;
+  color: white;
+}
